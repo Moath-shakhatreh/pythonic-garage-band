@@ -104,7 +104,8 @@ class Band :
 
 if __name__ == '__main__':
  
- moath = Band("Mo'ath")
+ print('mmmm')
+#  moath = Band("Mo'ath")
 #  print(Band.members)
 #  print(moath.get_instrument())
 #  print(str(moath))
