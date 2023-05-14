@@ -1,7 +1,8 @@
 https://github.com/Moath-shakhatreh/pythonic-garage-band/pull/1
 
 LAB - Class 04
-Project: madlib game
+
+Project: Pythonic garage band
 
 Author: Mo'ath shakhatreh
 

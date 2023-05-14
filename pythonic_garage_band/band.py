@@ -3,6 +3,10 @@ from abc import ABC , abstractmethod
 
     
 class Musician(ABC) :
+    '''
+    This class is the parent class of guitarist,Drummer,Bassit classes ,
+    it contain some common methods for all child classes
+    '''
     def __init__(self,name="Mo'ath"):
         self.name = name
     
@@ -24,6 +28,10 @@ class Musician(ABC) :
 
 
 class Guitarist(Musician) :
+    '''
+    This class is used to contain all guitarest musicions with the name of each person
+    and some propereties(methods) like their instrument and play solo
+    '''
 
     # def __str__(self):
     #     return f'My name is {self.name} and I play guitar'
@@ -40,6 +48,10 @@ class Guitarist(Musician) :
    
 
 class Drummer(Musician) :
+    '''
+    This class is used to contain all drummer musicions with the name of each person
+    and some propereties(methods) like their instrument and play solo
+    '''
    
     # def __str__(self):
     #     return f'My name is {self.name} and I play drums'
@@ -56,6 +68,10 @@ class Drummer(Musician) :
 
 
 class Bassist(Musician) :
+    '''
+    This class is used to contain all Bassist musicions with the name of each person
+    and some propereties(methods) like their instrument and play solo
+    '''
 
     # def __str__(self):
     #     return f'My name is {self.name} and I play bass'
@@ -70,6 +86,10 @@ class Bassist(Musician) :
         return "bom bom buh bom"
 
 class Band :
+    '''
+    This class is used to contain mucisian bands names with the members for every band
+
+    '''
 
     instances = []
     def __init__(self,name: str,arr=[]):
