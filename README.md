@@ -1,5 +1,3 @@
-https://github.com/Moath-shakhatreh/pythonic-garage-band/pull/1
-
 LAB - Class 04
 
 Project: Pythonic garage band
@@ -8,7 +6,7 @@ Author: Mo'ath shakhatreh
 
 Links and Resources:
 
-pull request link : https://github.com/Moath-shakhatreh/pythonic-garage-band/pull/1
+pull request link : https://github.com/Moath-shakhatreh/pythonic-garage-band/pull/2
 
 back-end server url (when applicable)
 
